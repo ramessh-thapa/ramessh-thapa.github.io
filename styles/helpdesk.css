@@ -1,0 +1,175 @@
+.nav-bar-logo {
+    display: inline-block;
+    vertical-align: middle;
+    max-height: 35px;
+}
+
+.top-nav-bar{
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+}
+
+.header-title{
+    position: relative;
+    padding-left: 15px;
+    padding-top: 1.5px;
+    font-size: 16px;
+    color: #000;
+    font-weight: 600;
+}
+
+.header-link{
+    padding: 15px;
+    position: relative;
+    padding-left: 15px;
+    padding-top: 1.5px;
+    font-size: 13px;
+    color: #000;
+    font-weight: 400;
+}
+
+.main-title{
+    text-align: center;
+    color: #fff;
+    font-size: 42px;
+    text-align: center;
+    
+    min-height: 180px;
+    padding: 57px 0;
+    background-color:#304679;
+
+}
+
+.main-section{
+    padding: 40px 0;
+   text-align: center;
+    background-color: #f3f3f3;
+}
+.main-container{
+    display: flex;
+    width: 1170px;
+    margin: 0 auto;
+    padding: 0 15px;
+    max-width: 100%;
+
+}
+
+.azure-btn-link {
+    display: block;
+    height: 50px;
+    padding: 10px 0;
+    margin-bottom: 10px;
+    text-align: center;
+    border-radius: 5px;
+    border: solid 1px #dedede;
+    background-color: #fff;
+    cursor: pointer;
+}
+
+.azure-btn{
+    margin-bottom: 15px;
+padding: 0 0 20px;
+border-bottom: 1px dotted rgba(151,151,151,0.3);
+}
+
+.azure-btn-text{
+    font-size: 12px;
+    color: #999;
+    position: relative;
+    bottom: -104px;
+    padding-left: 147px;
+}
+
+.login-field {
+    margin-bottom: 5px;
+    text-align: left;
+}
+.login-label {
+    color: #666;
+    font-size: 14px;
+}
+
+.login-input {
+    margin: 5px 0;
+    padding: 10px 12px;
+    width: 100%;
+    outline: 0;
+    display: inline-block;
+    border-radius: 5px;
+    border: solid 1px #e8e8e8;
+    background-color: #fff;
+    font-size: 14px;
+}
+
+.forget-password {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer-2{
+    font-size: 14px;
+    text-align: right;
+    padding-right: 33px;
+}
+.helpdesk-link{
+    font-weight: bold;
+}
+
+.copyright-txt {
+    text-align: right;
+    padding: 15px 30px;
+    background-color: #e6e6e6;
+}
+
+.footer-container-2 {
+    width: 100%;
+    padding: 7px 30px 10px;
+    text-align: right;
+    background: #fff;
+}
+
+.footer-container-2 span, .footer-container-2 img {
+    vertical-align: middle;
+}
+
+.footer-container-2 span {
+    margin-right: 5px;
+    font-size: 12px;
+    color: #666;
+}
+
+.form-main{
+    border-right: #ccc 1px solid;
+    padding-right: 80px;
+    text-align: left;
+}
+.login-info{
+    font-size: 15px;
+    font-weight: bold;
+    color: #666;
+}
+.login-info-container{
+    
+    padding-left: 110px;
+}
+
+footer img {
+    width: 100px;
+    margin: 10px;
+}
+
+footer ul {
+    margin: 0;
+    text-align: end;
+}
+footer li {
+    display: inline;
+}
+footer li a {
+    display: inline-block;
+}
+
+.header-link a{
+    color: inherit;
+}

@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="/styles/helpdesk.css" />
+  </head>
+  <body>
+    <header>
+      <nav class="navbar">
+        <img
+          src="https://s3.us-west-2.amazonaws.com/hf-files-oregon/hdpmiu_user_customized/2022/08-30/a4ce5601-eeaa-4d0c-8119-4b5d80934707/GJ.jpg"
+          class="nav-bar-logo"
+          alt="MIU logo"
+        />
+        <div class="header-title">| Compro Help Desk</div>
+        <nav class="top-nav-bar">
+          <div class="header-link"><a href="">Agent Portal</a></div>
+          <div class="header-link"><a href="">Submit Ticket</a></div>
+          <div class="header-link"><a href="">Knowledge Base</a></div>
+          <div class="header-link"><a href="">Login</a></div>
+        </nav>
+      </nav>
+    </header>
+
+    <main>
+      <div class="main-title">Welcome to our Support Center</div>
+      <div class="main-section">
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-5 form-main">
+              <h4>Login</h4>
+              <p>Login to know the status of the ticket</p>
+              <div class="azure-btn">
+                <p class="azure-btn-text">or login using</p>
+                <a class="azure-btn-link">
+                  <img
+                    alt="Login using Azure AD"
+                    style="width: 100px"
+                    src="https://d12tly1s0ox52d.cloudfront.net/static/060423113549/support_center/images/azure%20ad.png"
+                  />
+                </a>
+              </div>
+              <div class="login-field">
+                <label class="login-lbl"> Username or Email </label>
+                <input
+                  class="login-input"
+                  type="text"
+                  placeholder="Enter email"
+                />
+              </div>
+              <div class="login-field">
+                <label class="login-lbl"> Password </label>
+                <input
+                  class="login-input"
+                  type="password"
+                  placeholder="Enter Password"
+                />
+              </div>
+              <div class="forget-password">
+                <div class="login-field">
+                  <input type="checkbox" checked="" />
+                  <label class="login-lbl"> Remember me</label>
+                </div>
+                <a href="">Forgot password?</a>
+              </div>
+              <div class="login-field">
+                <button type="submit" id="submit" class="btn btn-dark w-100">
+                  Login
+                </button>
+              </div>
+            </div>
+            <div class="col-sm-7 text-left login-info-container">
+              <span class="login-info">
+                Login to track your existing support requests. If you have not
+                created a ticket yet then you would need to
+                <a href="">register</a> or <a href="">create a new ticket</a> to
+                begin.
+              </span>
+              <br />
+              <br />
+              <a class="btn btn-dark" id="submit-ticket" href=""
+                >Submit ticket</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <footer>
+      <div class="copyright-txt">
+        <span>Copyright 2020, All rights reserved</span>
+      </div>
+      <div class="footer-2">
+        <span>
+          <a class="helpdesk-link" href="">Help Desk Software</a>
+          &nbsp;by HappyFox
+        </span>
+        <ul>
+          <li>
+            <a href="https://validator.w3.org/nu/check/referer">
+              <img
+                src="http://mumstudents.org/cs472/2014-09/images/w3c-html.png"
+                alt="html validator"
+              />
+            </a>
+          </li>
+          <li>
+            <a
+              href="https://jigsaw.w3.org/css-validator/validator?uri=ramessh-thapa.github.io/helpdesk.html"
+            >
+              <img
+                src="https://miro.medium.com/v2/resize:fit:800/format:webp/1*Pa0VtXquqHfaOM0bW8ORzQ.png"
+                alt="css validator"
+              />
+            </a>
+          </li>
+        </ul>
+      </div>
+    </footer>
+  </body>
+</html>
