@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="/styles/login-form.css" />
+  </head>
+  <body>
+    <form>
+      <div class="login-field">
+        <label class="login-lbl"> Email Address </label>
+        <input
+          class="login-input"
+          type="text"
+          placeholder="Enter email"
+          pattern="^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$"
+          title="Please enter valid email address"
+          required
+        />
+      </div>
+      <div class="login-field">
+        <label class="login-lbl"> Password </label>
+        <input
+          class="login-input"
+          type="password"
+          pattern="^(?=.*[A-Z])(?=.*[a-z])(?=.*\d).{10,}$"
+          title="Please include at least 10 characters in length and contain at least one number and one uppercase and lowercase letter at least 1 uppercase character, 1 lowercase character, and 1 number."
+          required
+          placeholder="Enter Password"
+        />
+      </div>
+      <div class="login-field">
+        <label class="login-lbl"> Website Url</label>
+        <input
+          class="login-input"
+          type="text"
+          placeholder="Enter website url"
+          pattern="^(http|https):\/\/[a-zA-Z0-9-]+(\.[a-zA-Z0-9-]+)*(\.[a-z]{2,})?(:\d{1,5})?(\/[\w\.-]*)*(\/)?(\?[&=\w]*)?$"
+          title="Please enter valid website url"
+          required
+        />
+      </div>
+      <div class="login-chkbox">
+        <div class="login-field">
+          <input type="checkbox" />
+          <label class="login-lbl"> Check me out</label>
+        </div>
+      </div>
+      <div class="login-field">
+        <button type="submit" id="submit">Submit</button>
+      </div>
+    </form>
+  </body>
+</html>

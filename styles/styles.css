@@ -26,7 +26,7 @@ main{
  margin: 30px; */
    margin: 8px;
    padding: 0 0.5%;
-   font-size: 1.15em;
+   font-size: 15px;
  } 
 
 footer {
@@ -62,4 +62,7 @@ body{
 .about{
     padding-top: 20px;
     font-size: 17px;
+}
+.mail-link{
+    color: rgb(59, 59, 235);
 }

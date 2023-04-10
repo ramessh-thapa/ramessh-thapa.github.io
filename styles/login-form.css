@@ -1,0 +1,43 @@
+form{
+    position: relative;
+    top: 200px; 
+    left: 35%; 
+    width: 400px;
+}
+.login-field {
+    margin-bottom: 5px;
+    text-align: left;
+}
+
+.login-label {
+    color: #666;
+    font-size: 14px;
+}
+
+.login-input {
+    margin: 5px 0px;
+    padding: 10px 12px;
+    width: 100%;
+    outline: 0px;
+    display: inline-block;
+    border-radius: 5px;
+    border: 1px solid rgb(175 166 166);
+    background-color: rgb(255, 255, 255);
+    font-size: 14px;
+}
+
+.login-chkbox {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+#submit{
+    width: 115px;
+    height: 34px;
+    border: none;
+    background: #3c7cff;
+    color: white;
+    border-radius: 3px;
+}

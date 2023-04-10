@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Product</title>
+    <link rel="stylesheet" href="styles/product.css" />
+  </head>
+  <body class="container">
+    <header>
+      <div class="header-text">MUM Golden Dome Market ::: SRM System</div>
+      <nav>
+        <a class="nav-link" href="">Products</a>
+        <a class="nav-link" href="">Suppliers</a>
+      </nav>
+    </header>
+    <div class="main-form">
+      <section>
+        <h1>New Product Form</h1>
+
+        <form>
+          <div class="row">
+            <div class="input text float-left">
+              <label>Product Number</label>
+              <input type="text" />
+            </div>
+            <div class="input text float-left">
+              <label>Quantity in stock</label>
+              <input type="number" />
+            </div>
+            <div class="input text float-left">
+              <label>Name</label>
+              <input type="text" />
+            </div>
+            <div class="input select float-left">
+              <label>Supplier</label>
+              <select>
+                <option value="">Select a supplier</option>
+                <option value="1">Amazon</option>
+                <option value="2">Alibaba</option>
+                <option value="3">Daraz</option>
+              </select>
+            </div>
+            <div class="input text float-left">
+              <label>Unit price</label>
+              <input type="text" id="unitPrice" name="unitPrice" />
+            </div>
+            <div class="input date float-left">
+              <label>Date supplied</label>
+              <input type="text" placeholder="mm/dd/yyyy" />
+              <p>Enter a valid Date.</p>
+            </div>
+          </div>
+          <div class="input submit">
+            <button class="btn btn-reset">Reset</button>
+            <button href="#" class="btn btn-cancel">Cancel</button>
+            <button class="btn btn-submit">Add Product</button>
+          </div>
+        </form>
+      </section>
+      <footer>
+        <a
+          href="https://jigsaw.w3.org/css-validator/check/referer"
+          target="_blank"
+        >
+          <img src=http://jigsaw.w3.org/css-validator/images/vcss alt="Valid
+          CSS!"/>
+        </a>
+
+        <a href="https://validator.w3.org/check/referer" target="_blank">
+          <img src=http://mumstudents.org/cs472/2013-09/images/w3c-html.png
+          alt="Validate" />
+        </a>
+      </footer>
+    </div>
+  </body>
+</html>

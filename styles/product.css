@@ -1,0 +1,125 @@
+.main-form{
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+.container{
+    font-family: 'Segoe UI';
+    font-size: 16px;
+    background-color: #f5f7f7;
+    margin: 0;
+    padding: 0;
+    font-size: 100%;
+    line-height: 1.4;
+    color: #000000;
+    letter-spacing: 0.5px;
+}
+
+section{
+    padding: 20px 30px;
+    margin: 30px 0;
+}
+form, form input ,form select{    
+    font-family: 'Segoe UI';
+    font-size: 16px;
+}
+.input{
+    margin-bottom: 20px;
+}
+.input.text input, .input.select select, .input.date input{
+    padding: 7px;
+    border-radius: 4px;
+    border: 1px solid#d9d9d9;
+    width: 95%;
+}
+.input label{    
+    font-weight: 500;
+}
+.input.text label, .input.select label, .input.date{
+    display: block;
+    margin-bottom: 5px;
+}
+p{
+    margin-top: 5px;
+    font-size: smaller;
+    color: rgba(0,0,0,.6);
+}
+.submit input{
+    padding: 7px 15px;
+    background: #007bff;
+    color: #ffffff;
+    border: none;
+    border-radius: 4px;
+}
+
+footer{
+    margin-top: 40px;
+    border-top: 1px solid #cccccc; 
+    padding: 20px 0;
+}
+
+header{
+    color: #ffffff;
+    padding: 25px 50px;
+    background: #4fb1ea;     
+    background: linear-gradient(to bottom,  #4fb1ea 0%,#239fe5 100%); 
+}
+.header-text{
+    font-size: 20px;
+    font-weight: 500;
+    float: left;
+    margin-right: 80px;
+}
+
+.float-left{
+    width: 50%;
+    float: left;
+}
+.main-form{
+    max-width: 1024px;
+}
+.main-form .input.text input, .main-form .input.select select, .main-form .input.date input{
+    width: 90%;
+}
+
+.main-form .submit{
+    text-align: right;
+}
+.main-form .submit button.btn{
+    margin-left: 15px;
+    background:none;
+}
+
+.main-form .submit button.btn-cancel{
+    color: #df600f;
+    border: 1px solid #df600f;
+    text-decoration: none;
+    padding: 7px 15px;
+    border-radius: 4px;    
+    margin-left: 15px; 
+}
+.main-form button{
+    width: fit-content;
+    text-decoration: none;
+    padding: 7px 15px;
+    border-radius: 4px;    
+    margin-left: 15px; 
+}
+.main-form .submit button.btn-reset{
+    color: #13487c;
+    border: 1px solid #13487c;
+}
+.btn-submit{
+    color: #007bff;
+    border: 1px solid #007bff;
+    margin-right: 30px;
+}
+
+.nav-link{
+    color: rgba(255,255,255,.9);
+    text-decoration: none;
+    font-size: 18px;
+    margin: 0 30px;
+    position: relative;
+    display: inline-block;
+}
