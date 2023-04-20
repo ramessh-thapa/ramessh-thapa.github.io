@@ -1,45 +1,45 @@
 document.getElementById("btnRegisterPatient")
-.addEventListener("click", function(event){
-    console.log("test");
-    event.preventDefault();
-    console.log("test _fdafasd");
-    let patientId = document.getElementById("patientIdNumber").value;
-    console.log(patientId);
-    let firstName = document.getElementById("firstName").value;
-    let middleInitials = document.getElementById("middleInitials").value;
-    let lastName = document.getElementById("lastName").value;
-    let dateOfBirth = document.getElementById("dateOfBirth").value;
-    let ddlDepartment = document.getElementById("ddlDepartment");
-    let radioIsOutPatientYes = document.getElementById("radioIsOutPatientYes");
-    
+        .addEventListener("click", function(event){
+            console.log("test");
+            event.preventDefault();
+            console.log("test _fdafasd");
+            let patientId = document.getElementById("patientIdNumber").value;
+            console.log(patientId);
+            let firstName = document.getElementById("firstName").value;
+            let middleInitials = document.getElementById("middleInitials").value;
+            let lastName = document.getElementById("lastName").value;
+            let dateOfBirth = document.getElementById("dateOfBirth").value;
+            let ddlDepartment = document.getElementById("ddlDepartment");
+            let radioIsOutPatientYes = document.getElementById("radioIsOutPatientYes");
+            
 
-    let ageDifMs = Date.now() - new Date(dateOfBirth).getTime();
-    let ageDate = new Date(ageDifMs); 
-    let age =  Math.abs(ageDate.getUTCFullYear() - 1970);
+            let ageDifMs = Date.now() - new Date(dateOfBirth).getTime();
+            let ageDate = new Date(ageDifMs); 
+            let age =  Math.abs(ageDate.getUTCFullYear() - 1970);
 
-    let newRow = document.createElement("tr");
+            let newRow = document.createElement("tr");
 
-    if(age < 65){
-        newRow.classList.add("young-patient");
-    }
+            if(age < 65){
+                newRow.classList.add("young-patient");
+            }
 
-    if(!radioIsOutPatientYes.checked ){
-        newRow.classList.add("in-patient");
-    }
-  
-    newRow.innerHTML = `
-          <td>${patientId}</td>
-          <td>${firstName}</td>
-          <td>${middleInitials}</td>
-          <td>${lastName}</td>
-          <td>${dateOfBirth}</td>
-          <td>${ddlDepartment}</td>
-          <td>${radioIsOutPatientYes.checked ? "Yes" : "No"}</td>
-      `;
-  
-    document.getElementById("tbodyPatientsList").appendChild(newRow);
-    document.getElementById("btnReset").click();
-});
+            if(!radioIsOutPatientYes.checked ){
+                newRow.classList.add("in-patient");
+            }
+        
+            newRow.innerHTML = `
+                <td>${patientId}</td>
+                <td>${firstName}</td>
+                <td>${middleInitials}</td>
+                <td>${lastName}</td>
+                <td>${dateOfBirth}</td>
+                <td>${ddlDepartment}</td>
+                <td>${radioIsOutPatientYes.checked ? "Yes" : "No"}</td>
+            `;
+        
+            document.getElementById("tbodyPatientsList").appendChild(newRow);
+            document.getElementById("btnReset").click();
+        });
 
 
 
