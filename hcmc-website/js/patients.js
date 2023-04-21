@@ -1,10 +1,7 @@
 document.getElementById("btnRegisterPatient")
         .addEventListener("click", function(event){
-            console.log("test");
             event.preventDefault();
-            console.log("test _fdafasd");
             let patientId = document.getElementById("patientIdNumber").value;
-            console.log(patientId);
             let firstName = document.getElementById("firstName").value;
             let middleInitials = document.getElementById("middleInitials").value;
             let lastName = document.getElementById("lastName").value;
